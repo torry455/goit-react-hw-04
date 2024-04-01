@@ -1,0 +1,27 @@
+.imageCard {
+    width: 300px;
+    background-color: #4d564b;
+    transition: transform 250ms ease-in-out;
+    border-bottom: 1px solid #091507;
+}
+
+.imageCard:hover,
+.imageCard:focus {
+    transform: scale(1.03);
+}
+
+.imageDescrWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.imageDescr {
+    margin: 0;
+    font-size: 12px;
+    color: #ccdfc0;
+}
+
+.imageSpan {
+    font-weight: 600;
+}

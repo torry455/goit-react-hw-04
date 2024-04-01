@@ -1,0 +1,17 @@
+.scrollUp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #16641a80;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.scrollUp:hover
+.scrollUp:focus {
+    background-color: #00b368;
+    /* колір кнопки при наведенні */
+}
