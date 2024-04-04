@@ -9,12 +9,13 @@ const ImageCard = ({ image, onImageClick }) => {
   };
 
   return (
-    <div className={css.imageCard} onClick={() => onImageClick(imageData)}>
+    <div className={css.imageCard}>
       <img
         src={image.urls.small}
         alt={image.alt_description}
         width={300}
         height={200}
+        onClick={() => onImageClick(imageData)}
       />
       <div className={css.imageDescrWrap}>
         <p className={css.imageDescr}>
